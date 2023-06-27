@@ -4,12 +4,18 @@
 
 .b2{
     background-color: green;
+    visibility: hidden;
+
+    /*
+    visibility keeps the place in the document for the element that it has removed from display
+    display: none; reomoves the element as well as the space allocated for that element 
+    */
 
 }
 
 .b3{
     background-color: red;
-    display: none;
+    
 }
 
 div{
