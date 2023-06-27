@@ -1,0 +1,21 @@
+.b1{
+    background-color: blue;
+}
+
+.b2{
+    background-color: green;
+
+}
+
+.b3{
+    background-color: red;
+    display: none;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
