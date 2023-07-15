@@ -1,27 +1,56 @@
-.b1{
-    background-color: blue;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.b2{
-    background-color: green;
-    visibility: hidden;
-
-    /*
-    visibility keeps the place in the document for the element that it has removed from display
-    display: none; reomoves the element as well as the space allocated for that element 
-    */
-
+#navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
 }
 
-.b3{
-    background-color: red;
-    
+a{
+    color: white;
+    margin-right: 15%;
+    font-size: 16px;
+}
+
+.logo{
+    color: orange;
+    font-size: 25px;
+}
+
+.logoColor{
+    background-color: orange;
+    color: white;
 }
 
 div{
-    height: 200px;
-    width: 200px;
-    margin: 25px;
-    padding: 25px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     display: inline-block;
+}
+
+#b1{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#b2{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#b3{
+    background-color: rgba(0, 0, 255, 0.5);
+
+}
+
+main{
+    height: 500px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
