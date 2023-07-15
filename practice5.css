@@ -1,0 +1,9 @@
+div{
+    position: fixed;
+    right: 0px;
+    top: 10px;
+    height: 400px;
+    width: 400px;
+    background-image: url("hamster.jpg");
+    background-size: cover;
+}

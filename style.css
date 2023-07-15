@@ -54,7 +54,9 @@ footer{
     color: white;
     text-align: center;
 }
+/*
 
+used to learn about units in css
 #box1{
     height: 300px;
     width: 300px;
@@ -68,4 +70,47 @@ footer{
     background-color: yellow;
     margin-left: 20%;
     font-size: 1em;
+}
+*/
+
+/* Position in CSS*/
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+    background-image: url("hamster.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+#box2{
+    position: relative;
+    background-color: green;
+}
+
+#box3{
+    position: absolute;
+    background-color: red;
+}
+
+#box4{
+    position: fixed;
+    background-color: yellow;
+}
+
+#box5{
+    position: sticky;
+    background-color: pink;
+}
+
+body{
+    background-image: url("hamster.jpg");
+    background-size: cover;
 }
